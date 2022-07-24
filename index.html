@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <!-- Start Navbar -->
-    <header>
+    
+    <header class="container">
+        <!-- Start Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container py-3">
                 <a class="navbar-brand" href="#">
@@ -39,7 +40,99 @@
                 </div>
             </div>
         </nav>
+        <!-- End Navbar  -->
+
+        <!-- Start Slider Section  -->
+        <section class="slider-section">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner my-5">
+                    <div class="carousel-item active bg-info p-5 border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex  align-items-center">
+                                <div>
+                                    <h1>Cool Dude Headphone</h1>
+                                    <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <h2>$420</h2>
+                                    <a class="btn btn-warning" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="img-fluid" src="./images/banner-images/headphone.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg-info p-5 border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex  align-items-center">
+                                <div>
+                                    <h1>Mega LCD TV For Sports</h1>
+                                    <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                                    <h2>$1200</h2>
+                                    <a class="btn btn-warning" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="img-fluid" src="./images/banner-images/tv-removebg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg-info p-5 border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex  align-items-center">
+                                <div>
+                                    <h1>X-Box for your living room</h1>
+                                    <p>This is the best x-box in the world for people who just want to waste time in front of fake spot</p>
+                                    <h2>$600</h2>
+                                    <a class="btn btn-warning" href="#">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="img-fluid" src="./images/banner-images/xbox.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- End Slider Seciton  -->
+        
     </header>
+    <main>
+        <!-- Start Categoris Section -->
+        <section class="categrois">
+            <div class="container">
+                <div class="row g-2 py-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-around">
+                            <h2>Watch</h2>
+                            <img class="img-fluid" src="./images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 border rounded-3 bg-success d-flex align-items-center justify-content-around">
+                            <h2>Bags</h2>
+                            <img class="img-fluid"  src="./images/categories/bag.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 border rounded-3 bg-primary d-flex align-items-center justify-content-around">
+                            <h2>Sohes</h2>
+                            <img class="img-fluid" src="./images/categories/shoes.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Categoris Section -->
+    </main>
 
 
 
