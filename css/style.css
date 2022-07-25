@@ -1,3 +1,6 @@
+.slider-section{
+    margin-top: 100px;
+}
 .panda-bg-info{
     background-color: #fceae8;
 }
@@ -10,4 +13,13 @@
         border: none;
         border-radius: 8px;
         padding: 9px 25px;
+}
+.panda-bg-watch{
+    background-color: orange;
+}
+.panda-bg-bag{
+    background-color: orchid;
+}
+.panda-bg-shoe{
+    background-color: blue;
 }
